@@ -1,0 +1,15 @@
+/* bike-list-item .list-group-item .list-group-item-action {
+    cursor: pointer;
+} */
+
+.selected {
+    background-color: gray !important;
+    color: whitesmoke;
+  }
+
+/* .hover {
+    cursor: -webkit-zoom-out
+} */
+/* .selected list-group-item {
+    /* background-color: rgb(12, 132, 184) !important;
+    color: rgb(41, 20, 160); */

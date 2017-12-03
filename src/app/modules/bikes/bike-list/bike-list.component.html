@@ -1,0 +1,14 @@
+<p>
+  Total bikes: {{bikes.length}}
+</p>
+<ul class="list-group">
+  <li *ngFor="let bikeModel of bikes" 
+    class="list-group-item list-group-item-action"
+    [class.selected]="bikeModel === selectedBike"
+    (click)="onSelectBikeItem(bikeModel)"
+    >
+    <app-bike-list-item [bike]="bikeModel" ></app-bike-list-item>
+  </li>
+</ul>
+
+
